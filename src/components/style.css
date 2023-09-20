@@ -83,16 +83,41 @@ button {
   color: rgb(232, 231, 231);
 }
 
-.container{
+/* .container{
   display: flex;
-}
+} */
 
 a{
   color: white;
   text-decoration: none;
   font-size: 35px;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  .container-child {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .container-child a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+/* 
 #container-child1{
   position: absolute;
   left: 10%;
@@ -109,7 +134,7 @@ a{
   position: absolute;
   left: 80%;
   top: 40%;
-}
+} */
 
 a:hover{
   color: grey;
