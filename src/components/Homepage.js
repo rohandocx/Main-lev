@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
    <div class='container'>
   
-    <h1 id='heading'>Welcome</h1>
+    <h1 id='heading'>PROJECT MENU</h1>
  
   <div class='container-child'>
     <a href='https://todo-leverag-lcuz26yr9-rohandocx.vercel.app/'>TASKBOARD</a>
